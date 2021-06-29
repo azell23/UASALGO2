@@ -2,7 +2,7 @@ package stack;
 public class mainstack {
     public static void main(String[] args) {
         stackApp newStack = new stackApp(10);
-        newStack.push(1);
+        newStack.push(1);//NIM20090011
         newStack.show();
         newStack.push(2);
         newStack.show();

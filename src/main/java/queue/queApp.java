@@ -2,7 +2,7 @@ package queue;
 public class queApp {
     public static void main(String[] args) {
         mainque antrian = new mainque(10);
-        antrian.enqueue(1);
+        antrian.enqueue(1);//NIM 20090011
         antrian.tampil();
         antrian.enqueue(8);
         antrian.tampil();
